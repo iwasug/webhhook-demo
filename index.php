@@ -28,7 +28,7 @@ if($method == 'POST'){
 	}
 
 	$response = new \stdClass();
-	$response->fullfillmentText = $speech;
+	$response->fulfillmentText = $speech;
 	echo json_encode($response);
 }
 else
