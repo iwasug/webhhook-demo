@@ -11,26 +11,65 @@
                      {
                         "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
                         "imageBackgroundColor":"#FFFFFF",
-                        "title":"Tanya Jawab 1",
+                        "title":"Pertanyaan :",
                         "text":"Apakah Sahabat Nestlé Rewards?",
                         "actions":[
                            {
                               "type":"message",
                               "label":"Jawaban",
-                              "text":"FAQ 1"
+                              "text":"Jawaban1"
                            }
                         ]
                      },
                      {
                         "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
                         "imageBackgroundColor":"#000000",
-                        "title":"Tanya Jawab 2",
+                        "title":"Pertanyaan :",
                         "text":"Periode Program-nya dimulai sejak & sampai kapan?",
                         "actions":[
                            {
                               "type":"message",
                               "label":"Jawaban",
-                              "text":"FAQ 2"
+                              "text":"Jawaban2"
+                           }
+                        ]
+                     },
+					 {
+                        "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
+                        "imageBackgroundColor":"#000000",
+                        "title":"Pertanyaan :",
+                        "text":"Apakah poin hanya didapatkan dari pembelian produk saja?",
+                        "actions":[
+                           {
+                              "type":"message",
+                              "label":"Jawaban",
+                              "text":"Jawaban3"
+                           }
+                        ]
+                     },
+					 {
+                        "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
+                        "imageBackgroundColor":"#000000",
+                        "title":"Pertanyaan :",
+                        "text":"Bagaimana jika saya ingin mengganti alamat email saya?",
+                        "actions":[
+                           {
+                              "type":"message",
+                              "label":"Jawaban",
+                              "text":"Jawaban4"
+                           }
+                        ]
+                     },
+					 {
+                        "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
+                        "imageBackgroundColor":"#000000",
+                        "title":"Pertanyaan :",
+                        "text":"Hadiah apa saja yang tersedia di Sahabat Nestlé Rewards?",
+                        "actions":[
+                           {
+                              "type":"message",
+                              "label":"Jawaban",
+                              "text":"Jawaban5"
                            }
                         ]
                      }

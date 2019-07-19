@@ -1,0 +1,110 @@
+{
+   "fulfillmentMessages":[
+      {
+         "payload":{
+            "line":{
+               "type":"template",
+               "altText":"this is a carousel template",
+               "template":{
+                  "type":"carousel",
+                  "columns":[
+                     {
+                        "thumbnailImageUrl":"https://rewards.sahabatnestle.co.id/images/products/lactogrow-3-plain.png",
+                        "imageBackgroundColor":"#FFFFFF",
+                        "title":"LACTOGROW 3 Plain",
+                        "text":"Untuk anak usia 1-3 tahun Tanpa Perasa",
+                        "actions":[
+                           {
+                              "type":"message",
+                              "label":"Detail",
+                              "text":"Detail"
+                           },
+						   {
+                              "type":"uri",
+                              "label":"Beli Sekarang",
+                              "uri":"https://www.lazada.co.id/products/nestle-lactogrow-3-susu-pertumbuhan-rasa-madu-1-3-tahun-box-350g-i160015842-s181848896.html"
+                           }
+                        ]
+                     },
+					 {
+                        "thumbnailImageUrl":"https://rewards.sahabatnestle.co.id/images/products/lactogrow-3-madu.png",
+                        "imageBackgroundColor":"#FFFFFF",
+                        "title":"LACTOGROW 3 Madu",
+                        "text":"Untuk anak usia 1-3 tahun Rasa Madu",
+                        "actions":[
+                           {
+                              "type":"message",
+                              "label":"Detail",
+                              "text":"Detail"
+                           },
+						   {
+                              "type":"uri",
+                              "label":"Beli Sekarang",
+                              "uri":"https://www.lazada.co.id/products/nestle-lactogrow-3-susu-pertumbuhan-rasa-madu-1-3-tahun-box-350g-i160015842-s181848896.html"
+                           }
+                        ]
+                     },
+					 {
+                        "thumbnailImageUrl":"https://rewards.sahabatnestle.co.id/images/products/lactogrow-3-vanilla.png",
+                        "imageBackgroundColor":"#FFFFFF",
+                        "title":"LACTOGROW 3 Vanilla",
+                        "text":"Untuk anak usia 1-3 tahun Rasa Vanilla",
+                        "actions":[
+                           {
+                              "type":"message",
+                              "label":"Detail",
+                              "text":"Detail"
+                           },
+						   {
+                              "type":"uri",
+                              "label":"Beli Sekarang",
+                              "uri":"https://www.lazada.co.id/products/nestle-lactogrow-3-susu-pertumbuhan-rasa-madu-1-3-tahun-box-350g-i160015842-s181848896.html"
+                           }
+                        ]
+                     },
+					 {
+                        "thumbnailImageUrl":"https://rewards.sahabatnestle.co.id/images/products/lactogrow-4-vanilla.png",
+                        "imageBackgroundColor":"#FFFFFF",
+                        "title":"LACTOGROW 4 Vanilla",
+                        "text":" Untuk anak usia 3-5 tahun Rasa Vanilla",
+                        "actions":[
+                           {
+                              "type":"message",
+                              "label":"Detail",
+                              "text":"Detail"
+                           },
+						   {
+                              "type":"uri",
+                              "label":"Beli Sekarang",
+                              "uri":"https://www.lazada.co.id/products/lactogrow-4-madu-3-5-tahun-box-750g-happynutri-rasa-susu-pertumbuhan-i160015824-s181848878.html"
+                           }
+                        ]
+                     },
+					 {
+                        "thumbnailImageUrl":"https://rewards.sahabatnestle.co.id/images/products/lactogrow-4-madu.png",
+                        "imageBackgroundColor":"#FFFFFF",
+                        "title":"LACTOGROW 4 Madu",
+                        "text":"Untuk anak usia 3-5 tahun Rasa Madu",
+                        "actions":[
+                           {
+                              "type":"message",
+                              "label":"Detail",
+                              "text":"Detail"
+                           },
+						   {
+                              "type":"uri",
+                              "label":"Beli Sekarang",
+                              "uri":"https://www.lazada.co.id/products/lactogrow-4-madu-3-5-tahun-box-750g-happynutri-rasa-susu-pertumbuhan-i160015824-s181848878.html"
+                           }
+                        ]
+                     }
+                  ],
+                  "imageAspectRatio":"square",
+                  "imageSize":"contain"
+               }
+            }
+         },
+         "platform":"LINE"
+      }
+   ]
+}
