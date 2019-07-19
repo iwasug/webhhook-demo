@@ -27,21 +27,27 @@ if($method == 'POST'){
 			break;
 	}
 
+	$action = new \stdClass();
+	$action->type = "postback";
+	$action->label = "TES";
+	$action->data = "action=buy&itemid=111";
 
 	$colums_array = array();
 	$actions_array = array();
 
 	$default_action = new \stdClass();
-	$default_action->type = "postback";
+	$default_action->type = "uri";
 	$default_action->label = "View";
+	$default_action->data = "action=buy&itemid=111";
 
 	$columns = new \stdClass();
 	$columns->thumbnailImageUrl = "https://example.com/bot/images/item1.jpg";
 	$columns->imageBackgroundColor = "#FFFFFF";
 	$columns->title = "Apakah Sahabat Nestle Rewards?";
+	$columns->altText = "Nestle";
 	$columns->defaultAction = $default_action;
 
-	//$columns->actions = $actions_array;
+	$columns->actions = $actions_array;
 
 	array_push($colums_array, $columns);
 
