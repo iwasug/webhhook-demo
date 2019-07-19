@@ -12,20 +12,20 @@
                         "thumbnailImageUrl":"https://example.com/bot/images/item1.jpg",
                         "imageBackgroundColor":"#FFFFFF",
                         "title":"Apakah Sahabat Nestlé Rewards? ",
-                        "text":"-",
+                        "text":" ",
                         
                         "actions":[
                            {
                               "type":"message",
-                              "label":"cek",
-                              "text":"dsdsdsds"
+                              "label":"Jawaban",
+                              "text":"faq 1"
                            }
                         ]
                      },
                      {
                         "thumbnailImageUrl":"https://example.com/bot/images/item2.jpg",
                         "imageBackgroundColor":"#000000",
-                        "title":"this is menu",
+                        "title":"Periode Program-nya dimulai sejak & sampai kapan?",
                         "text":"description",
                         "defaultAction":{
                            "type":"uri",
