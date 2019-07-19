@@ -12,31 +12,66 @@
                         "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
                         "imageBackgroundColor":"#FFFFFF",
                         "title":"Apakah Sahabat Nestlé Rewards? ",
-                        "text":"-",
-                        
+                        "text":" ",
                         "actions":[
                            {
                               "type":"message",
-                              "label":"cek",
-                              "text":"dsdsdsds"
+                              "label":"Jawaban",
+                              "text":"FAQ 1"
                            }
                         ]
                      },
                      {
                         "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
                         "imageBackgroundColor":"#000000",
-                        "title":"this is menu",
-                        "text":"description",
-                        "defaultAction":{
-                           "type":"uri",
-                           "label":"View detail",
-                           "uri":"http://example.com/page/222"
-                        },
+                        "title":"Periode Program-nya dimulai sejak & sampai kapan?",
+                        "text":" ",
                         "actions":[
                            {
                               "type":"message",
-                              "label":"cek",
-                              "text":"dsdsdsds"
+                              "label":"Jawaban",
+                              "text":"FAQ 2"
+                           }
+                        ]
+                     },
+					 {
+                        "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
+                        "imageBackgroundColor":"#000000",
+                        "title":"Bagaimana cara untuk bisa mengikuti program Sahabat Nestlé Rewards?",
+                        "text":" ",
+                        "actions":[
+                           {
+                              "type":"message",
+                              "label":"Jawaban",
+                              "text":"FAQ 3"
+                           }
+                        ]
+                     }
+					 ,
+					 {
+                        "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
+                        "imageBackgroundColor":"#000000",
+                        "title":"Saya sudah memiliki member ID, bagaimana saya bisa mendapatkan rewards?",
+                        "text":" ",
+                        "actions":[
+                           {
+                              "type":"message",
+                              "label":"Jawaban",
+                              "text":"FAQ 4"
+                           }
+                        ]
+                     }
+					 ,
+					 {
+                        "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
+                        "imageBackgroundColor":"#000000",
+                        "title":"Bagaimana jika terjadi ketidak sesuaian antara jumlah poin yang didapatkan terhadap kode unik pada kemasan yang dimiliki?",
+                        "text":" ",
+                        "actions":[
+                           {
+                              "type":"message",
+                              "label":"Jawaban",
+                              "text":"FAQ 5"
                            }
                         ]
                      }
