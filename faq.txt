@@ -33,47 +33,6 @@
                               "text":"FAQ 2"
                            }
                         ]
-                     },
-					 {
-                        "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
-                        "imageBackgroundColor":"#000000",
-                        "title":"Tanya Jawab 3",
-                        "text":"Bagaimana cara untuk bisa mengikuti program Sahabat Nestlé Rewards?",
-                        "actions":[
-                           {
-                              "type":"message",
-                              "label":"Jawaban",
-                              "text":"FAQ 3"
-                           }
-                        ]
-                     }
-					 ,
-					 {
-                        "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
-                        "imageBackgroundColor":"#000000",
-                        "title":"Tanya Jawab 4",
-                        "text":"Apakah poin hanya didapatkan dari pembelian produk saja? ",
-                        "actions":[
-                           {
-                              "type":"message",
-                              "label":"Jawaban",
-                              "text":"FAQ 4"
-                           }
-                        ]
-                     }
-					 ,
-					 {
-                        "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
-                        "imageBackgroundColor":"#000000",
-                        "title":"Tanya Jawab 5",
-                        "text":"Apakah jumlah poin yang kita dapatkan dari setiap pembelian produk sama?",
-                        "actions":[
-                           {
-                              "type":"message",
-                              "label":"Jawaban",
-                              "text":"FAQ 5"
-                           }
-                        ]
                      }
                   ],
                   "imageAspectRatio":"rectangle",
