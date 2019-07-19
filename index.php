@@ -55,14 +55,17 @@ if($method == 'POST'){
 
 	$template = new \stdClass();
 	$template->type = "carousel";
-	$template->altText = "Nestle";
-	$template->columns = $colums_array;
+	
 
+	$template->columns = $colums_array;
+	$template->imageAspectRatio = "rectangle";
+	$template->imageSize = "cover";
 
 
 	$payload = array();
 	$line = new \stdClass();
 	$line->type = "template";
+	$line->altText = "Nestle";
 	$line->template = $template;
 
 
