@@ -27,9 +27,25 @@ if($method == 'POST'){
 			break;
 	}
 
+	$template = new \stdClass();
+	$type = "carousel";
+
+
+
+	$payload = array();
+	$line = new \stdClass();
+	$line->type = "template";
+	$line->template = $template;
+
+
+	$p = new \stdClass();
+	$p->payload->line = $line;
+	array_push($payload, $p);
+
 	$response = new \stdClass();
-	$response->fulfillmentText = $speech;
+	$response->fulfillmentMessages = $payload;
 	$response->action = $action;
+	$response->text = $text;
 	echo json_encode($response);
 }
 else
