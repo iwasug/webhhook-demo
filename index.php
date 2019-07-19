@@ -6,7 +6,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 if($method == 'POST'){
 	$requestBody = file_get_contents('php://input');
 	$json = json_decode($requestBody);
-
+	$action = $json->queryResult->action;
 	$text = $json->queryResult->parameters->text;
 
 	switch ($text) {
@@ -29,6 +29,7 @@ if($method == 'POST'){
 
 	$response = new \stdClass();
 	$response->fulfillmentText = $speech;
+	$response->action = $action;
 	echo json_encode($response);
 }
 else
