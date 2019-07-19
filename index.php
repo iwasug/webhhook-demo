@@ -40,13 +40,13 @@ if($method == 'POST'){
 	$default_action = new \stdClass();
 	$default_action->type = "uri";
 	$default_action->label = "View";
-	$default_action->data = "action=buy&itemid=111";
+	$default_action->uri = "action=buy&itemid=111";
 
 	$columns = new \stdClass();
 	$columns->thumbnailImageUrl = "https://example.com/bot/images/item1.jpg";
 	$columns->imageBackgroundColor = "#FFFFFF";
 	$columns->title = "Apakah Sahabat Nestle Rewards?";
-	$columns->altText = "Nestle";
+	
 	$columns->defaultAction = $default_action;
 
 	$columns->actions = $actions_array;
@@ -55,6 +55,7 @@ if($method == 'POST'){
 
 	$template = new \stdClass();
 	$template->type = "carousel";
+	$template->altText = "Nestle";
 	$template->columns = $colums_array;
 
 
