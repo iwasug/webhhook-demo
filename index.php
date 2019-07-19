@@ -8,10 +8,10 @@ if($method == 'POST'){
 	$json = json_decode($requestBody);
 	$action_intent = $json->queryResult->action;
 	$text = $json->queryResult->parameters->text;
-
 	switch ($text) {
-		case 'hi':
-			$speech = "Hi, Nice to meet you";
+		case 'faq':
+			$myfile = fopen("faq.txt", "r") or die("Unable to open file!");
+			$ec = fread($myfile,filesize("faq.txt"));
 			break;
 
 		case 'bye':
@@ -27,7 +27,7 @@ if($method == 'POST'){
 			break;
 	}
 
-	$action = new \stdClass();
+	/* $action = new \stdClass();
 	$action->type = "postback";
 	$action->label = "TES";
 	$action->data = "action=buy&itemid=111";
@@ -78,7 +78,8 @@ if($method == 'POST'){
 	$response->fulfillmentMessages = $payload;
 	//$response->action = $action;
 	//$response->text = $text;
-	echo json_encode($response);
+	echo json_encode($response); */
+	echo $ec;
 }
 else
 {
