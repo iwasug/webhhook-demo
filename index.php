@@ -73,7 +73,7 @@ if($method == 'POST'){
 	$response = new \stdClass();
 	$response->fulfillmentMessages = $payload;
 	//$response->action = $action;
-	$response->text = $text;
+	//$response->text = $text;
 	echo json_encode($response);
 }
 else
