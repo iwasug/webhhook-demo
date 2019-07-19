@@ -6,7 +6,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 if($method == 'POST'){
 	$requestBody = file_get_contents('php://input');
 	$json = json_decode($requestBody);
-	$action = $json->queryResult->action;
+	$action_intent = $json->queryResult->action;
 	$text = $json->queryResult->parameters->text;
 
 	switch ($text) {
@@ -34,6 +34,8 @@ if($method == 'POST'){
 
 	$colums_array = array();
 	$actions_array = array();
+
+	array_push($actions_array, $action);
 
 	$default_action = new \stdClass();
 	$default_action->type = "uri";
@@ -70,7 +72,7 @@ if($method == 'POST'){
 
 	$response = new \stdClass();
 	$response->fulfillmentMessages = $payload;
-	$response->action = $action;
+	//$response->action = $action;
 	$response->text = $text;
 	echo json_encode($response);
 }
