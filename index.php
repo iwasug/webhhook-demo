@@ -8,7 +8,7 @@ if($method == 'POST'){
 	$json = json_decode($requestBody);
 	$action_intent = $json->queryResult->action;
 	$text = $json->queryResult->parameters->text;
-	switch ($text) {
+	switch (strtolower($text)) {
 		case 'faq':
 			$myfile = fopen("faq.txt", "r") or die("Unable to open file!");
 			$ec = fread($myfile,filesize("faq.txt"));

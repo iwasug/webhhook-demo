@@ -11,8 +11,8 @@
                      {
                         "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
                         "imageBackgroundColor":"#FFFFFF",
-                        "title":"Apakah Sahabat Nestlé Rewards? ",
-                        "text":" ",
+                        "title":"Tanya Jawab 1",
+                        "text":"Apakah Sahabat Nestlé Rewards?",
                         "actions":[
                            {
                               "type":"message",
@@ -24,8 +24,8 @@
                      {
                         "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
                         "imageBackgroundColor":"#000000",
-                        "title":"Periode Program-nya dimulai sejak & sampai kapan?",
-                        "text":" ",
+                        "title":"Tanya Jawab 2",
+                        "text":"Periode Program-nya dimulai sejak & sampai kapan?",
                         "actions":[
                            {
                               "type":"message",
@@ -37,8 +37,8 @@
 					 {
                         "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
                         "imageBackgroundColor":"#000000",
-                        "title":"Bagaimana cara untuk bisa mengikuti program Sahabat Nestlé Rewards?",
-                        "text":" ",
+                        "title":"Tanya Jawab 3",
+                        "text":"Bagaimana cara untuk bisa mengikuti program Sahabat Nestlé Rewards?",
                         "actions":[
                            {
                               "type":"message",
@@ -51,8 +51,8 @@
 					 {
                         "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
                         "imageBackgroundColor":"#000000",
-                        "title":"Saya sudah memiliki member ID, bagaimana saya bisa mendapatkan rewards?",
-                        "text":" ",
+                        "title":"Tanya Jawab 4",
+                        "text":"Apakah poin hanya didapatkan dari pembelian produk saja? ",
                         "actions":[
                            {
                               "type":"message",
@@ -65,8 +65,8 @@
 					 {
                         "thumbnailImageUrl":"https://webhook-demo-php.herokuapp.com/faq.jpg",
                         "imageBackgroundColor":"#000000",
-                        "title":"Apakah jumlah poin yang kita dapatkan dari setiap pembelian produk sama? ",
-                        "text":"",
+                        "title":"Tanya Jawab 5",
+                        "text":"Apakah jumlah poin yang kita dapatkan dari setiap pembelian produk sama?",
                         "actions":[
                            {
                               "type":"message",
